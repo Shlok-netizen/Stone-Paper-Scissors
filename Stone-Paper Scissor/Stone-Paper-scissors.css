@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;/*for all document*/
+}
+
+h1{
+    background-color: #081b31;
+    color: aliceblue;
+    height: 5rem;
+    line-height: 5rem;/*verticlly center me lane ke liye*/
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor:pointer;
+    background-color: black;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;/*isse image thodi si better hokar aayegi*/
+    border-radius: 50%;/* Image ko square se round banane ke liye*/
+}
+
+.choices{
+    display: flex;/*img ko ek row me lane ke liye*/
+    justify-content: center;/*for vertically & horizontally allign ke liye*/
+    align-items: center;
+    gap: 3rem;/*img me gap*/
+    margin-top: 5rem;/*thoda sa img niche aa jayega*/
+}
+
+.score-board{
+    display: flex;/*score-board row me aa jayega*/
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap:5rem;
+}
+
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg{
+    background-color: #081b31;
+    color:#fff;
+    font-size: 2.5rem;
+    display: inline;/*background color me lambi si line hatane ke liye jitna text utna back-color*/
+    padding: 1rem;
+    border-radius: 1rem;/* thda sa curved ho jayega*/
+}
